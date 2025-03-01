@@ -1,20 +1,18 @@
 # jest-graphql-transformer
 
-A Jest transformer that enables **GraphQL queries in separate files**, similar to how [`graphql-tag` loader for Webpack](http://dev.apollodata.com/react/webpack.html) works.  
-
-Since Jest **does not support Webpack loaders**, this package provides the same transformation inside Jest.  
+A Jest transformer that allows GraphQL queries in separate files, similar to the `graphql-tag` loader for Webpack, but adapted for Jest, which does not support Webpack loaders. This package provides the same transformation within Jest, enabling seamless GraphQL query imports.
 
 ---
 
-## 🚀 Installation  
+## 🚀 Installation
 
-Install the package using **npm** or **yarn**:  
+Install the package using **npm** or **yarn**:
 
 ```sh
 npm install --save-dev jest-graphql-transformer
 ```
 
-or  
+or
 
 ```sh
 yarn add --dev jest-graphql-transformer
@@ -22,13 +20,13 @@ yarn add --dev jest-graphql-transformer
 
 ---
 
-## 🔧 Usage  
+## 🔧 Usage
 
-### ✅ Configure Jest to Use the Transformer  
+### ✅ Configure Jest to Use the Transformer
 
-#### 📌 **In `package.json`**  
+#### 📌 **In `package.json`**
 
-Add the following to your Jest configuration:  
+Add the following to your Jest configuration:
 
 ```json
 "jest": {
@@ -39,7 +37,7 @@ Add the following to your Jest configuration:
 }
 ```
 
-#### 📌 **Or in `jest.config.js` / `jest.config.ts`**  
+#### 📌 **Or in `jest.config.js` / `jest.config.ts`**
 
 ```javascript
 export default {
@@ -49,10 +47,10 @@ export default {
 };
 ```
 
-### ⚠️ **Note:**  
+### ⚠️ **Note:**
 
-Once you define the `transform` property, **Jest's default transformations will be overridden**.  
-If you need Babel for other files, make sure to include it:  
+Once you define the `transform` property, **Jest's default transformations will be overridden**.
+If you need Babel for other files, make sure to include it:
 
 ```javascript
 export default {
@@ -65,6 +63,6 @@ export default {
 
 ---
 
-## 📜 License  
+## 📜 License
 
-MIT License © 2024 [hamidyfine](https://github.com/hamidyfine)  
+MIT License © 2024 [hamidyfine](https://github.com/hamidyfine)
