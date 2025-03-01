@@ -589,4 +589,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+.DS_Store
 # End of https://www.toptal.com/developers/gitignore/api/node,vs,visualstudiocode,test
