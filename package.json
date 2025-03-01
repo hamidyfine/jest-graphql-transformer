@@ -1,15 +1,10 @@
 {
     "name": "jest-graphql-transformer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Jest transformer for .gql imports",
-    "main": "dist/cjs/index.js",
-    "module": "dist/esm/index.js",
-    "exports": {
-        "require": "./dist/cjs/index.js",
-        "import": "./dist/esm/index.js"
-    },
+    "main": "index.js",
     "scripts": {
-        "build": "rollup -c"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -30,14 +25,8 @@
         "url": "https://github.com/hamidyfine/jest-graphql-transformer/issues"
     },
     "homepage": "https://github.com/hamidyfine/jest-graphql-transformer#readme",
-    "dependencies": {
+    "peerDependencies": {
         "graphql-tag": "^2.12.6"
-    },
-    "devDependencies": {
-        "@rollup/plugin-commonjs": "^28.0.2",
-        "@rollup/plugin-node-resolve": "^16.0.0",
-        "@rollup/plugin-terser": "^0.4.4",
-        "rollup": "^4.34.8"
     },
     "sideEffects": false
 }

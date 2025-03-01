@@ -1,0 +1,1 @@
+const loader=require("graphql-tag/loader");module.exports={process:e=>({code:loader.call({cacheable:()=>{}},e)})};
