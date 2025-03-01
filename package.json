@@ -1,6 +1,6 @@
 {
     "name": "jest-graphql-transformer",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Jest transformer for .gql imports",
     "main": "index.js",
     "scripts": {
